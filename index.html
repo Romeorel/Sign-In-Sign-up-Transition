@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Importing Boxicon Font CSS-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Importing Exo Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Flex Sign Sign up</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>Abstract</p>
+            </div>
+    
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#" class="link active">Home</a></li>
+                    <li><a href="#" class="link">Collections</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                    <li><a href="#" class="link">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="nav-button">
+                <button class="btn white-btn" id="loginBtn">Sign In</button>
+                <button class="btn" id="registerBtn">Sign Up</button>
+            </div>
+    
+            <div class="nav-menu-button">
+                <i class='bx bx-menu-alt-right' ></i>
+    
+            </div>
+    
+        </nav>
+
+<!--------------------------------- FORM BOX ------------------------------------>        
+        <div class="form-box">
+            <!----------------Sign Up Form---------------------->
+            <div class="signUp-container " id="signUp">
+                <div class="top">
+                    <span>Have an acccount? <a href="#" onclick="login()">Login</a></span>
+                    <header>Sign Up</header>
+                </div>
+
+                <div class="two-forms">
+                    <div class="input-box">
+                        <!--First name-->
+                        <input type="text" class="input-field" placeholder="First Name">
+                        <i class='bx bxs-user-circle'></i>
+                    </div>
+                        <!--Last name-->
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Last Name">
+                        <i class='bx bxs-user-circle'></i>
+                    </div>
+                        <!--Email-->
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Email">
+                        <i class='bx bxs-envelope' ></i>
+                    </div>
+                        <!--Password-->
+                    <div class="input-box">
+                        <input type="password" class="input-field" placeholder="Password">
+                        <i class='bx bxs-lock-alt' ></i>
+                    </div>
+                        <!--Submit-->
+                    <div class="input-box">
+                        <input type="submit" class="input-field signUp-box" value="Sign up">
+                    </div>
+
+                    <div class="two-col">
+                        <div class="one">
+                            <input type="checkbox" id="signup-check">
+                            <label for="signup-check">Remember me</label>
+                        </div>
+
+                        <div class="two">
+                            <label><a href="#">Terms & Conditions</a></label>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    
+    
+</body>
+</html>
